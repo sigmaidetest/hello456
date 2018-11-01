@@ -1,0 +1,71 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1610f285-c5cd-431b-8744-b1238da86c90": {
+        "id": "1610f285-c5cd-431b-8744-b1238da86c90",
+        "parent": null,
+        "name": "aa",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "3f5c138d-bb8d-4ed3-a72b-b365520fbe41"
+        ],
+        "isRemovable": false,
+        "filePath": "aa"
+      },
+      "3f5c138d-bb8d-4ed3-a72b-b365520fbe41": {
+        "id": "3f5c138d-bb8d-4ed3-a72b-b365520fbe41",
+        "parent": "1610f285-c5cd-431b-8744-b1238da86c90",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "aa/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "1610f285-c5cd-431b-8744-b1238da86c90",
+    "openFiles": [
+      "3f5c138d-bb8d-4ed3-a72b-b365520fbe41"
+    ],
+    "currentFileId": "3f5c138d-bb8d-4ed3-a72b-b365520fbe41",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "3f5c138d-bb8d-4ed3-a72b-b365520fbe41"
+  },
+  "PROJECT_META": {
+    "projectName": "aa",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "lastSave": 1541061878818
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "aa",
+      "url": "https://github.com/sigmaidetest/hello456"
+    }
+  }
+}
